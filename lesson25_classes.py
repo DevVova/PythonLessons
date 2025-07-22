@@ -27,11 +27,30 @@ class House:
         self.price = price
         self.address = address
         print(f"Создан дом по адресу {address}.")
+
     # Ниже пример деструктора.
     # При завершении программы автоматически будет выполняться деструктор объекта.
     def __del__(self):
         print(f"Снесён дом по адресу {self.address}.")
 
+
+# Ниже пример задокументированного класса.
+class Friend:
+    """
+    Это класс под названием 'Friend'
+    """
+
+    def __init__(self, name, age):
+        self.name = name
+        """
+        :param name: Этот атрибут хранит имя.
+        """
+        self.age = age
+        print("Создан экземпляр класса 'Friend'.")
+
+
+pasha = Friend("Pasha", 47)
+print(pasha.name)
 
 sam = Person()
 sam.name = "Sam"
@@ -39,5 +58,3 @@ print(sam.name)
 
 print()
 my_house = House(230000, "5 Avenue")
-print("Qu-qu")
-input()
