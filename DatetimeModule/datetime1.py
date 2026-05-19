@@ -24,3 +24,33 @@ time_now = datetime.datetime.now().minute  # Вот так можно узнат
 print(time_now)
 time = datetime.datetime.now()  # А вот так полностью время и дату сейчас можно узнать.
 print(time)
+
+day = datetime.datetime(2026, 5, 18)
+print(day)
+print("{}.{}.{} - my birth day.".format(day.day, day.month, day.year))
+
+                                          # # Класс time.
+t = datetime.datetime.now().time().hour  # Вот как можно узнать который сейчас час.
+print(t)
+
+# Преобразование из строки в дату.
+
+
+# Для определения формата мы можем использовать следующие коды:
+
+# %d: день месяца в виде числа
+
+# %m: порядковый номер месяца
+
+# %y: год в виде 2-х чисел
+
+# %Y: год в виде 4-х чисел
+
+# %H: час в 24-х часовом формате
+
+# %M: минута
+
+# %S: секунда
+
+deadLine = datetime.datetime.strptime("19/05/2026 20:00", "%d/%m/%Y %H:%M")
+print(deadLine)
