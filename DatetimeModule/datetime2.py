@@ -1,4 +1,4 @@
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, date
 import locale
 
 """
@@ -53,3 +53,6 @@ twoHoursTenMinutes = timedelta(hours=2, minutes=10)
 # Теперь мы можем узнать какое время будет через 2 часа и 10 минут.
 nextTime = datetime.now() + twoHoursTenMinutes  # Поддерживает только класс datetime.
 print(nextTime)
+
+locale.setlocale(category=locale.LC_TIME, locale="de_DE.UTF-8")  # Здесь для времени используем немецкую локаль.
+print(date.today().strftime("Сегодня день недели на немецком - %A"))
