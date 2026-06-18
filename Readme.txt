@@ -1,0 +1,1 @@
+Для того чтобы импортировать мою библиотеку нужно писать pip install -e "C:\C\Python\MyPrograms\MyLibrary\vlib".
