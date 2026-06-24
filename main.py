@@ -1,4 +1,3 @@
-import vlib  
-
+import vlib
 
 vlib.printHello()

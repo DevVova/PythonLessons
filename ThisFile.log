@@ -1,0 +1,5 @@
+2026-06-24 16:31:23,688 root DEBUG This is a debug! 37
+2026-06-24 16:31:23,688 root INFO This is an info. 38
+2026-06-24 16:31:23,688 root WARNING This is a warning!! 39
+2026-06-24 16:31:23,688 root ERROR This is an error!!! 40
+2026-06-24 16:31:23,688 root CRITICAL This is a critical message!!! 41
