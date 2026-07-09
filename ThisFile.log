@@ -1,5 +1,35 @@
-2026-06-24 16:31:23,688 root DEBUG This is a debug! 37
-2026-06-24 16:31:23,688 root INFO This is an info. 38
-2026-06-24 16:31:23,688 root WARNING This is a warning!! 39
-2026-06-24 16:31:23,688 root ERROR This is an error!!! 40
-2026-06-24 16:31:23,688 root CRITICAL This is a critical message!!! 41
+2026-07-09 19:33:47,071   root   DEBUG    This is a debug!   line -> 37   from module -> Logging1
+2026-07-09 19:33:47,071   root   INFO    This is an info.   line -> 38   from module -> Logging1
+2026-07-09 19:33:47,071   root   WARNING    This is a warning!!   line -> 39   from module -> Logging1
+2026-07-09 19:33:47,071   root   ERROR    This is an error!!!   line -> 40   from module -> Logging1
+2026-07-09 19:33:47,071   root   CRITICAL    This is a critical message!!!   line -> 41   from module -> Logging1
+
+2026-07-09 19:33:54,182   root   DEBUG    This is a debug!   line -> 37   from module -> Logging1
+2026-07-09 19:33:54,183   root   INFO    This is an info.   line -> 38   from module -> Logging1
+2026-07-09 19:33:54,183   root   WARNING    This is a warning!!   line -> 39   from module -> Logging1
+2026-07-09 19:33:54,183   root   ERROR    This is an error!!!   line -> 40   from module -> Logging1
+2026-07-09 19:33:54,183   root   CRITICAL    This is a critical message!!!   line -> 41   from module -> Logging1
+
+2026-07-09 19:33:56,070   root   DEBUG    This is a debug!   line -> 37   from module -> Logging1
+2026-07-09 19:33:56,070   root   INFO    This is an info.   line -> 38   from module -> Logging1
+2026-07-09 19:33:56,070   root   WARNING    This is a warning!!   line -> 39   from module -> Logging1
+2026-07-09 19:33:56,070   root   ERROR    This is an error!!!   line -> 40   from module -> Logging1
+2026-07-09 19:33:56,070   root   CRITICAL    This is a critical message!!!   line -> 41   from module -> Logging1
+
+2026-07-09 19:34:08,617   root   DEBUG    This is a debug!   line -> 37   from module -> Logging1
+2026-07-09 19:34:08,617   root   INFO    This is an info.   line -> 38   from module -> Logging1
+2026-07-09 19:34:08,617   root   WARNING    This is a warning!!   line -> 39   from module -> Logging1
+2026-07-09 19:34:08,617   root   ERROR    This is an error!!!   line -> 40   from module -> Logging1
+2026-07-09 19:34:08,617   root   CRITICAL    This is a critical message!!!   line -> 41   from module -> Logging1
+
+2026-07-09 19:35:03,945   root   DEBUG    This is a debug!   line -> 37   from module -> Logging1
+2026-07-09 19:35:03,945   root   INFO    This is an info.   line -> 38   from module -> Logging1
+2026-07-09 19:35:03,945   root   WARNING    This is a warning!!   line -> 39   from module -> Logging1
+2026-07-09 19:35:03,946   root   ERROR    This is an error!!!   line -> 40   from module -> Logging1
+2026-07-09 19:35:03,946   root   CRITICAL    This is a critical message!!!   line -> 41   from module -> Logging1
+
+2026-07-09 19:36:49,951   root   INFO    This is an info.   line -> 38   from module -> Logging1
+2026-07-09 19:36:49,951   root   WARNING    This is a warning!!   line -> 39   from module -> Logging1
+2026-07-09 19:36:49,951   root   ERROR    This is an error!!!   line -> 40   from module -> Logging1
+2026-07-09 19:36:49,951   root   CRITICAL    This is a critical message!!!   line -> 41   from module -> Logging1
+
