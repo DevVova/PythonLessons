@@ -17,6 +17,8 @@ class House:
         print(f"The house price is {self.price}.")
 
 
+# Можно вместо Exception указать конкретную ошибку MyError.
+# Если указать himHouse = House(40000) после myHouse = House(22), то оно будет игнорировано, так как после пойманной ошибки перейдёт в блок except.
 try:
     himHouse = House(40000)
     himHouse.info()
