@@ -1,9 +1,10 @@
 import logging
 
-
 """
     Если написать filemode='a', то будет постоянно дописывать в лог, а если 'w', то заново с чистого листа.
     Для того чтобы писать в файл нужно написать filename="ThisFile.log" и он, если его нет, создастся.
+    Если ничего не указать то будет режим 'a'. Если параметр filemode не указан, по умолчанию используется режим "a"
+    (дозапись в конец файла).
 
     Записи в лог-файле имеют формат <logging-level>:<name-of-the-logger>:<message>. По умолчанию <name-of-the-logger>,
     имя логгера, установлено в root, так как мы пока не настраивали пользовательские логгеры.
@@ -31,9 +32,12 @@ import logging
     %(msecs)d	миллисекунды
     %(relativeCreated)d	миллисекунды с запуска программы
 """
-logging.basicConfig(level=logging.INFO, filename="ThisFile.log", filemode='a',
-                    format="%(asctime)s   %(name)s   %(levelname)s    %(message)s   line -> %(lineno)d   from module -> %(module)s"
-) #  Если так указать, то даже дебажные сообщения попадут в консоль на вывод, только без filename="ThisFile.log" иначе в консоле будет пусто.
+logging.basicConfig(
+    level=logging.INFO,
+    filename="ThisFile.log",
+    filemode="a",
+    format="%(asctime)s   %(name)s   %(levelname)s    %(message)s   line -> %(lineno)d   from module -> %(module)s",
+)  #  Если так указать, то даже дебажные сообщения попадут в консоль на вывод, только без filename="ThisFile.log" иначе в консоле будет пусто.
 logging.debug("This is a debug!")
 logging.info("This is an info.")
 logging.warning("This is a warning!!")
