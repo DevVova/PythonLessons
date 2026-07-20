@@ -22,13 +22,12 @@ open("file.txt", "r+")  # читать и изменять
 """
 LOG_FILE_NAME = "AppLogFile.log"
 LOG_FILE_PATH = rf"C:\C\Python\MyPrograms\PythonLessons\{LOG_FILE_NAME}"
-timeNow = datetime.datetime.now()
 
 locale.setlocale(
     locale.LC_ALL, ""
 )  # Используем локаль, для указания локального языка и прочего.
 
-write_log_session_header(LOG_FILE_PATH, LOG_FILE_NAME, timeNow)
+write_log_session_header(LOG_FILE_PATH, LOG_FILE_NAME)
 
 logging.basicConfig(level=logging.DEBUG, filename=LOG_FILE_PATH, encoding="utf-8")
 logging.info("Это новая запись")
