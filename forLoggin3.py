@@ -2,8 +2,7 @@ import datetime
 import locale
 import logging
 
-# from LoggingModule.utils.ForLogging import write_log_session_header - так блядь нельзя здесь только в корне проекта где main.
-# Поэтому я создал forLogging3.py и вот там это всё можно импортировать и подключать.
+from utils.ForLogging import write_log_session_header
 
 """
 Допустим  мы хотим писать логи так, чтобы каждый раз при запуске приложения 
@@ -29,7 +28,7 @@ locale.setlocale(
     locale.LC_ALL, ""
 )  # Используем локаль, для указания локального языка и прочего.
 
-# write_log_session_header(LOG_FILE_PATH, LOG_FILE_NAME, timeNow)
+write_log_session_header(LOG_FILE_PATH, LOG_FILE_NAME, timeNow)
 
 logging.basicConfig(level=logging.DEBUG, filename=LOG_FILE_PATH, encoding="utf-8")
 logging.info("Это новая запись")
